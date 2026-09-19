@@ -1,24 +1,28 @@
 
->>> python -m venv venv
->>> venv\Scripts\activate
+>> python -m venv venv
+>> venv\Scripts\activate
 
->>> pip install -r requirements.txt
+>> pip install -r requirements.txt
+
+#Create .env file 
+create .env as an example with same variable and add open_ai api key .
 
 # To generate Vectore Embeddings 
 
->>> cd backend
->>> python index.py
+>> cd backend
+>> python index.py
 
 Note: Here Vector embeddings are already generated 
 
+
 # To start Backend
 
->>> cd backend (if you skip embeddings)
->>> uvicorn main:app --reload 
+>> cd backend (if you skip embeddings)
+>> uvicorn main:app --reload 
 
 # now start frontend 
 # In new Terminal
 
->>> cd frontend 
->>> streamlit run app.py 
+>> cd frontend 
+>> streamlit run app.py 
 
